@@ -1,0 +1,34 @@
+footer {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-rows: auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+footer div #title-shop {
+    color: #F3C61F;
+    font-family: Verdana;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+footer #cards {
+    display: grid;
+    grid-auto-flow: row;
+}
+
+footer #buy{
+    margin-top: 80px;
+    border-radius: 20px;
+    border: none;
+    background: #514988;  
+    width: 596px;
+    height: 148px;
+    color: #FFF;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+}
