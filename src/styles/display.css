@@ -1,0 +1,56 @@
+:root {
+    --purple: #514988;
+    --orange: #F3C61F;
+}
+
+section {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: auto;
+}
+
+section #informational {
+    background: var(--purple);
+    width: 702px;
+    height: 594px;
+    top: 118px;
+    text-align: center;
+}
+
+section #informational h1 {
+    color: var(--orange);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+section #informational h2 {
+    color: #FFF;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 20px;
+}
+
+section #informational p {
+    color: #FFF;
+    font-size: 20px;
+}
+
+section #video-display #countdown {
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 3vw;
+    font-size: 48px;
+    color: var(--purple);
+    font-style: normal;
+    font-weight: 700;
+}
+
+section #video-display #countdown p{
+    margin: 0;
+}
+
+section #video-display {
+    color: #E33881;
+}
